@@ -43,10 +43,10 @@ Notably, rcj-sim should be able to support different execution speeds of
 the robot programs.
 
 ## Modelling of the game
-rcj-sim must support at least RoboCup Junior Soccer 2v2 setups, but should
+rcj-sim shall support at least RoboCup Junior Soccer 2v2 setups, but should
 support other setups like 1v1 or games without sidelines as well.
 
-There must be the possibility to simulate enforcement of the game rules.
+There shall be the possibility to simulate enforcement of the game rules.
 This includes placing ball and robots on neutral spots, and also counting
 scores and resetting the game if a goal is scored.
 
@@ -56,9 +56,9 @@ beginners while providing the features that advanced users need.
 
 There shall be a visual user interface that can be used to inspect the
 progress and state of the simulation.
-However, it must be possible to run the simulation without a graphical user
+However, it shall be possible to run the simulation without a graphical user
 interface.
-There must be a interface through which the simulation can be controlled
+There shall be an interface through which the simulation can be controlled
 programmatically, so that rcj-sim can be used for training machine
 learning agents.
 
