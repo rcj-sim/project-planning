@@ -31,14 +31,21 @@ Modelable sensors shall include at least:
 - An abstract global positioning sensor.
 - An orientation sensor like a magnetic field sensor.
 
+rcj-sim should support different hardware models for all simulated robots.
+
 ## Modelling of the program
 There must be a way to take the source code for the real robot's program
 and run it in the simulation.
 It shall be possible for teams to use a broad range of programming
 languages, at least C++.
 rcj-sim should support different programs for all simulated robots.
+Notably, rcj-sim should be able to support different execution speeds of
+the robot programs.
 
-## Enforcement of game rules
+## Modelling of the game
+rcj-sim must support at least RoboCup Junior Soccer 2v2 setups, but should
+support other setups like 1v1 or games without sidelines as well.
+
 There must be the possibility to simulate enforcement of the game rules.
 This includes placing ball and robots on neutral spots, and also counting
 scores and resetting the game if a goal is scored.
@@ -51,5 +58,4 @@ interface.
 There must be a interface through which the simulation can be controlled
 programmatically, so that rcj-sim can be used for training machine
 learning agents.
-
 
