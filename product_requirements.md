@@ -51,11 +51,9 @@ This includes placing ball and robots on neutral spots, and also counting
 scores and resetting the game if a goal is scored.
 
 ## User interface
-There shall be a visual user interface that can be used to inspect the
-progress and state of the simulation.
-However, it must be possible to run the simulation without a graphical user
-interface.
-There must be a interface through which the simulation can be controlled
-programmatically, so that rcj-sim can be used for training machine
-learning agents.
+On the one hand a visual user interface can be used to overview the data, 
+inspect the progress and state of the simulation, wich is especially for beginners 
+very important, on the other hand for andvanced teams these visual interfaces arent 
+necessary and it should also be possible to controll the simulation programmatically, 
+so that rcj-sim can be used for training machine learning agents.
 
