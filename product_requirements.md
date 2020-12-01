@@ -51,6 +51,9 @@ This includes placing ball and robots on neutral spots, and also counting
 scores and resetting the game if a goal is scored.
 
 ## User interface
+With beginner robotics teams in mind, rcj-sim should be easy to use for
+beginners while providing the features that advanced users need.
+
 There shall be a visual user interface that can be used to inspect the
 progress and state of the simulation.
 However, it must be possible to run the simulation without a graphical user
