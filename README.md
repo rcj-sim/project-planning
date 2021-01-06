@@ -12,4 +12,6 @@ simulation, mostly for fun.
 
 ## Table of Contents
 1. [Product Requirements](./product_requirements.md)
+2. Functional Specification
+    1. [Scheduler](./scheduler.md)
 
